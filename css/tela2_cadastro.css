@@ -1,4 +1,6 @@
-// Ideal = Usar zoom 100% no navegador
+html {
+    zoom: 1;
+}
 
 body, html {
     margin: 0;
