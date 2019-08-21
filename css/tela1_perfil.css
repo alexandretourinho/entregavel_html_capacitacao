@@ -19,6 +19,7 @@ div.container {
 
 #parte_de_cima {
     height: 300px;
+    position: static;
 }
 
 #parte_de_cima img {
@@ -91,9 +92,9 @@ div.container {
 }
 
 #parte_de_baixo {
-    position: relative;
-    bottom: 380px;
-    height: 150px;
+    position: absolute;
+    bottom: 0;
+    height: 20%;
 }
 
 #cinza_rodape {
